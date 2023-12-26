@@ -1,0 +1,17 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000" # Adjust the port as needed
+    environment:
+       DB_URL: mongodb+srv://vishnuna26:jLSJaM7ySAl65kaE@cluster0.e1wyzfm.mongodb.net/
+       PORT: 5000
+       SECRET_KEY: SECRET_KEY
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000" # Adjust the port as needed
+    depends_on:
+      - backend
