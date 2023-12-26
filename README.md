@@ -1,5 +1,7 @@
 # PostMedia application - 
-This project is a highly responsive  web application built using Reactjs,ChakraUI , MongoDb and Express and many other tools.([https://sunny-sawine-32b0b7.netlify.app])
+This project is a highly responsive  web application built using Reactjs,ChakraUI , MongoDb and Express and many other tools.
+
+Live Link :- https://sunny-sawine-32b0b7.netlify.app
 
 
 
